@@ -12,7 +12,9 @@ node_modules/
 /coverage
 
 # production
-/build
+frontend/build
+crm/build
+crm/staticfiles
 
 # misc
 .DS_Store
