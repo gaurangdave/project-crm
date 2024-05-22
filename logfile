@@ -1,0 +1,28 @@
+2024-05-21 06:59:20.506 PDT [664] LOG:  starting PostgreSQL 16.3 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 12.3.0-7) 12.3.0, 64-bit
+2024-05-21 06:59:20.507 PDT [664] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-21 06:59:20.513 PDT [664] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-21 06:59:20.520 PDT [667] LOG:  database system was shut down at 2024-05-21 06:59:07 PDT
+2024-05-21 06:59:20.524 PDT [664] LOG:  database system is ready to accept connections
+2024-05-21 07:00:14.264 PDT [664] LOG:  received fast shutdown request
+2024-05-21 07:00:14.267 PDT [664] LOG:  aborting any active transactions
+2024-05-21 07:00:14.268 PDT [664] LOG:  background worker "logical replication launcher" (PID 670) exited with exit code 1
+2024-05-21 07:00:14.268 PDT [665] LOG:  shutting down
+2024-05-21 07:00:14.271 PDT [665] LOG:  checkpoint starting: shutdown immediate
+2024-05-21 07:00:14.292 PDT [665] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.003 s, total=0.025 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/147FBA8, redo lsn=0/147FBA8
+2024-05-21 07:00:14.294 PDT [664] LOG:  database system is shut down
+2024-05-21 07:00:34.889 PDT [1667] LOG:  starting PostgreSQL 16.3 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 12.3.0-7) 12.3.0, 64-bit
+2024-05-21 07:00:34.890 PDT [1667] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-21 07:00:34.896 PDT [1667] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-21 07:00:34.902 PDT [1670] LOG:  database system was shut down at 2024-05-21 07:00:14 PDT
+2024-05-21 07:00:34.907 PDT [1667] LOG:  database system is ready to accept connections
+2024-05-21 07:04:08.287 PDT [2555] FATAL:  role "postgres" does not exist
+2024-05-21 07:05:12.899 PDT [2610] FATAL:  role "postgres" does not exist
+2024-05-21 07:05:35.002 PDT [1668] LOG:  checkpoint starting: time
+2024-05-21 07:07:08.099 PDT [1668] LOG:  checkpoint complete: wrote 934 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=93.025 s, sync=0.060 s, total=93.097 s; sync files=310, longest=0.004 s, average=0.001 s; distance=4283 kB, estimate=4283 kB; lsn=0/18AE850, redo lsn=0/18AE818
+2024-05-21 07:07:20.351 PDT [2754] FATAL:  role "postgres" does not exist
+2024-05-21 07:07:21.257 PDT [2755] FATAL:  role "postgres" does not exist
+2024-05-21 07:07:21.461 PDT [2756] FATAL:  role "postgres" does not exist
+2024-05-21 07:07:21.636 PDT [2757] FATAL:  role "postgres" does not exist
+2024-05-21 07:08:54.565 PDT [2885] FATAL:  database "gaurangvdave" does not exist
+2024-05-21 07:10:34.200 PDT [1668] LOG:  checkpoint starting: time
+2024-05-21 07:12:04.307 PDT [1668] LOG:  checkpoint complete: wrote 899 buffers (5.5%); 1 WAL file(s) added, 0 removed, 0 recycled; write=90.018 s, sync=0.059 s, total=90.108 s; sync files=300, longest=0.004 s, average=0.001 s; distance=4037 kB, estimate=4258 kB; lsn=0/1C9FC88, redo lsn=0/1C9FC50
